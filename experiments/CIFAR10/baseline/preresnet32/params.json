@@ -1,0 +1,14 @@
+{
+    "model_name": "preresnet32",
+
+    "learning_rate": 1e-1,
+    "schedule": [80, 120],
+    "gamma": 0.1,
+    "batch_size": 128,
+    "num_epochs": 160,
+    "num_workers": 4,
+    "augmentation": 1,
+    "cuda": 1,
+
+    "dataset": "cifar10"
+}

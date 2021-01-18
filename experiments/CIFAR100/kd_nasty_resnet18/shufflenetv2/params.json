@@ -1,0 +1,20 @@
+{
+    "model_name": "shufflenetv2",
+
+    "learning_rate": 0.1,
+    "schedule": [60, 120, 160],
+    "gamma": 0.2,
+    "batch_size": 128,
+    "num_epochs": 200,
+    "num_workers": 4,
+    "augmentation": 1,
+    "cuda": 1,
+
+    "dataset": "cifar100",
+
+    "teacher_model": "resnet18",
+    "teacher_resume": "experiments/CIFAR100/kd_nasty_resnet18/nasty_resnet18/best_model.tar",
+
+    "temperature": 20,
+    "alpha": 0.9
+}

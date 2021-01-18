@@ -1,0 +1,21 @@
+{
+    "model_name": "net",
+    "num_channels": 32,
+    "dropout_rate": 0.0,
+
+    "learning_rate": 1e-3,
+    "schedule": [999],
+    "gamma": 0.1,
+    "batch_size": 128,
+    "num_epochs": 100,
+    "num_workers": 4,
+    "augmentation": 1,
+    "cuda": 1,
+
+    "dataset": "cifar10",
+
+    "teacher_model": "resnet18",
+    "teacher_resume": "experiments/CIFAR10/baseline/resnet18/best_model.tar",
+    "temperature": 4,
+    "alpha": 0.9
+}
