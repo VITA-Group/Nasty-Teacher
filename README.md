@@ -1,6 +1,8 @@
 # Nasty Teacher 
-Official code for 
-["Undistillable: Making A Nasty Teacher That CANNOT teach students"]( https://openreview.net/forum?id=0zvfm-nZqQs)   
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+["Undistillable: Making A Nasty Teacher That CANNOT teach students"]( https://openreview.net/forum?id=0zvfm-nZqQs)
+
 Haoyu Ma, Tianlong Chen, Ting-Kuei Hu, Chenyu You, Xiaohui Xie, Zhangyang Wang    
 In ICLR 2021
 
