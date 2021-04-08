@@ -213,13 +213,16 @@ if __name__ == "__main__":
 
     # PreResNet(ResNet for CIFAR-10)  20/32/56/110 ***************
     elif params.model_name.startswith('preresnet20'):
-        model = PreResNet(depth=20)
+        model = PreResNet(depth=20, num_classes=num_class)
     elif params.model_name.startswith('preresnet32'):
-        model = PreResNet(depth=32)
+        model = PreResNet(depth=32, num_classes=num_class)
+    elif params.model_name.startswith('preresnet44'):
+        model = PreResNet(depth=44, num_classes=num_class)
     elif params.model_name.startswith('preresnet56'):
-        model = PreResNet(depth=56)
+        model = PreResNet(depth=56, num_classes=num_class)
     elif params.model_name.startswith('preresnet110'):
-        model = PreResNet(depth=110)
+        model = PreResNet(depth=110, num_classes=num_class)
+
 
     # DenseNet *********************************************
     elif params.model_name == 'densenet121':
